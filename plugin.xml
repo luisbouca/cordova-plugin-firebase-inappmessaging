@@ -21,14 +21,14 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     </engines>
 
     <platform name="ios">
-        <preference name="IOS_FIREBASE_INAPPMESSAGING_VERSION" default="~> 8.6.0"/>
+        <preference name="IOS_FIREBASE_INAPPMESSAGING_VERSION" default="~> 8.6.0-beta"/>
 
         <podspec>
             <config>
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
             <pods>
-                <pod name="Firebase/InAppMessaging" spec="$IOS_FIREBASE_INAPPMESSAGING_VERSION" />
+                <pod name="FirebaseInAppMessaging" spec="$IOS_FIREBASE_INAPPMESSAGING_VERSION" />
             </pods>
         </podspec>
     </platform>
