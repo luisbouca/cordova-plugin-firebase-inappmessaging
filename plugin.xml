@@ -27,7 +27,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             <config>
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
-            <pods>
+            <pods use-frameworks="true">
                 <pod name="FirebaseInAppMessaging" spec="$IOS_FIREBASE_INAPPMESSAGING_VERSION" />
             </pods>
         </podspec>
